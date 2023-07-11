@@ -1,0 +1,139 @@
+html,body{
+    margin: 0;
+    background-color: rgb(255, 210, 218);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: Consolas,monaco,monospace; 
+    padding-top: 20px;
+}
+div#players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: Consolas,monaco,monospace;
+}
+input {
+    font-family: Consolas,monaco,monospace;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+button{
+    background: #f5f5ef;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    align-items: center;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+h1{
+    margin: 0px;
+    font-family: Consolas, monaco, monospace; 
+  
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 27px; 
+}
+#winner{
+    margin: 0px;
+    display: flex;
+    font-size: 30px;
+
+}
+#winner p{
+    margin: 0px;
+}
+
+#board{
+    
+    display: grid;
+    border-radius: 14px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 540px;   
+    height: 375px;
+    background-color: rgba(178, 250, 178, 0.946);
+
+}
+.box{
+display: flex;
+padding:10px;
+justify-content: center;
+align-items: center;
+font-size: 80px;
+font-weight: 900;
+font-family: Consolas,monaco,monospace;
+margin: 0;
+}
+div#\30 {
+    border-bottom: solid 8px black;
+    border-right: solid 8px black;
+    border-radius: 15px;
+    border-top: solid 3px grey;
+    border-left: solid 3px grey;
+}
+div#\31 {
+    /* border-left: solid 2px black; */
+    border-radius: 15px;
+    border-bottom: solid 8px black;
+    border-right: solid 8px black;
+    border-top: solid 3px grey;
+}
+div#\32 { 
+    border-radius: 15px;
+    border-bottom: solid 8px black;
+    border-right: solid 3px grey;
+    border-top: solid 3px grey;
+}
+div#\33 {
+    border-radius: 15px;
+    border-right: solid 8px black;
+    border-bottom: solid 8px black;
+    border-left: solid 3px grey;
+}
+div#\34 {
+    border-radius: 15px;
+    border-bottom: solid 8px black;
+    border-right: solid 8px black;
+
+}
+div#\35 {
+    border-radius: 15px;
+    border-bottom: solid 8px black;
+    border-right: solid 3px grey;
+}
+div#\36 {
+    border-radius: 15px;
+    /* border-bottom: solid 2px black; */
+    border-right: solid 8px black;
+    border-left: solid 3px grey;
+    border-bottom: solid 3px grey;
+}
+div#\37 {
+    border-radius: 15px;
+    /* border-bottom: solid 2px black; */
+    /*border-right: solid 8px black;*/
+    border-bottom: solid 3px grey;
+}
+div#\38{
+    border-left: solid 8px black;
+    border-radius: 15px;
+    border-bottom: solid 3px grey;
+    border-right: solid 3px grey;
+}
